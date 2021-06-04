@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a923c055-dbfd-43a0-90d2-f8c7f7007502" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="plannerREST" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1sOHLZmd7VYzwX7XpJl7EiJILUy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="PlannerRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="plannerREST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.plannerREST.PlannerRestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a923c055-dbfd-43a0-90d2-f8c7f7007502" name="Default Changelist" comment="" />
+      <created>1620736660846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620736660846</updated>
+      <workItem from="1620736662219" duration="4633000" />
+      <workItem from="1620792715569" duration="345000" />
+      <workItem from="1620975200501" duration="10064000" />
+      <workItem from="1621233515059" duration="8930000" />
+      <workItem from="1621250472228" duration="9249000" />
+      <workItem from="1621269236899" duration="6599000" />
+      <workItem from="1621332483721" duration="9373000" />
+      <workItem from="1621362675064" duration="8646000" />
+      <workItem from="1621404719509" duration="18060000" />
+      <workItem from="1621491538220" duration="12831000" />
+      <workItem from="1621581045646" duration="7630000" />
+      <workItem from="1621846544475" duration="6887000" />
+      <workItem from="1621876850515" duration="5693000" />
+      <workItem from="1621957151766" duration="5961000" />
+      <workItem from="1622116876330" duration="6192000" />
+      <workItem from="1622614432601" duration="13635000" />
+      <workItem from="1622705197272" duration="4259000" />
+      <workItem from="1622710550071" duration="11776000" />
+      <workItem from="1622741502440" duration="4338000" />
+      <workItem from="1622788743804" duration="11551000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1622802993200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622802993200</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Revert &quot;First Commit&quot;&#10;&#10;This reverts commit 7d81ee3b">
+      <created>1622803076061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622803076061</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revert &quot;Revert &quot;First Commit&quot;&quot;&#10;&#10;This reverts commit da40da2b">
+      <created>1622803174031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622803174031</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <MESSAGE value="Revert &quot;First Commit&quot;&#10;&#10;This reverts commit 7d81ee3b" />
+    <MESSAGE value="Revert &quot;Revert &quot;First Commit&quot;&quot;&#10;&#10;This reverts commit da40da2b" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Revert &quot;First Commit&quot;&quot;&#10;&#10;This reverts commit da40da2b" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="filterChain" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
