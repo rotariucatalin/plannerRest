@@ -6,6 +6,7 @@ import com.example.plannerREST.repositories.PermissionRepository;
 import com.example.plannerREST.services.PermissionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -21,6 +22,7 @@ public class PermissionServiceImpl implements PermissionService {
         return permissionRepository.findAll().stream().map(this::convertToDTO).collect(Collectors.toList());
     }
 
+    @Transactional
     @Override
     public Permission savePermission(PermissionDTO permissionDTO) {
 
@@ -39,6 +41,7 @@ public class PermissionServiceImpl implements PermissionService {
         return convertToDTO(permission);
     }
 
+    @Transactional
     @Override
     public Permission updatePermission(PermissionDTO permissionDTO) {
 
@@ -51,6 +54,7 @@ public class PermissionServiceImpl implements PermissionService {
         return permission;
     }
 
+    @Transactional
     @Override
     public void removePermission(int id) {
         permissionRepository.deleteById(id);

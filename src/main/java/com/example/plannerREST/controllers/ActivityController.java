@@ -6,6 +6,8 @@ import com.example.plannerREST.entities.CustomResponse;
 import com.example.plannerREST.exception.ApiRequestException;
 import com.example.plannerREST.services.ActivityService;
 import com.example.plannerREST.services.CompanyService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
@@ -18,6 +20,8 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 @RestController
 @RequestMapping(value = "/activities")
 public class ActivityController {
+
+    private Logger logger = LoggerFactory.getLogger(ActivityController.class);
 
     @Autowired
     private ActivityService activityService;

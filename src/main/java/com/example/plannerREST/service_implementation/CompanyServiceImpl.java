@@ -11,10 +11,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -42,6 +41,7 @@ public class CompanyServiceImpl implements CompanyService {
         return companies.stream().map(this::convertToDTO).collect(Collectors.toList());
     }
 
+    @Transactional
     @Override
     public Company saveCompany(CompanyDTO companyDTO) {
 
@@ -66,6 +66,7 @@ public class CompanyServiceImpl implements CompanyService {
         return company;
     }
 
+    @Transactional
     @Override
     public CompanyDTO editCompany(int companyId) {
 
@@ -74,6 +75,7 @@ public class CompanyServiceImpl implements CompanyService {
         return convertToDTO(company);
     }
 
+    @Transactional
     @Override
     public Company updateCompany(CompanyDTO companyDTO) {
 
@@ -95,6 +97,7 @@ public class CompanyServiceImpl implements CompanyService {
         return company;
     }
 
+    @Transactional
     @Override
     public void removeCompany(int companyId) {
         companyRepository.deleteById(companyId);

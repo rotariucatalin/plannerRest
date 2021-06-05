@@ -11,6 +11,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +34,7 @@ public class ActivityServiceImpl implements ActivityService {
         return activities.stream().map(this::convertToDTO).collect(Collectors.toList());
     }
 
+    @Transactional
     @Override
     public Activity saveActivity(ActivityDTO activityDTO) {
 
@@ -63,11 +65,13 @@ public class ActivityServiceImpl implements ActivityService {
         return convertToDTO(activity);
     }
 
+    @Transactional
     @Override
     public Activity updateActivity(ActivityDTO activityDTO) {
         return this.saveActivity(activityDTO);
     }
 
+    @Transactional
     @Override
     public void removeActivity(int activityId) {
 

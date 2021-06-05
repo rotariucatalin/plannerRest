@@ -6,7 +6,6 @@ import com.example.plannerREST.entities.Permission;
 import com.example.plannerREST.entities.Users;
 import com.example.plannerREST.repositories.PermissionRepository;
 import com.example.plannerREST.repositories.UserRepository;
-import com.example.plannerREST.services.PermissionService;
 import com.example.plannerREST.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -14,6 +13,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,6 +63,7 @@ public class UserServiceImpl implements UserService {
         return usersDTO;
     }
 
+    @Transactional
     @Override
     public Users saveUser(UsersDTO usersDTO) throws Exception {
 
@@ -96,6 +97,7 @@ public class UserServiceImpl implements UserService {
         }
     }
 
+    @Transactional
     @Override
     public Users updateUser(UsersDTO usersDTO) {
 
@@ -122,6 +124,7 @@ public class UserServiceImpl implements UserService {
         return user;
     }
 
+    @Transactional
     @Override
     public void removeUser(int id) {
         userRepository.deleteById(id);

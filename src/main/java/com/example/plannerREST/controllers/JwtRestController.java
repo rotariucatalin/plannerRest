@@ -4,6 +4,8 @@ import com.example.plannerREST.entities.AuthRequest;
 import com.example.plannerREST.entities.JwtToken;
 import com.example.plannerREST.exception.ApiRequestException;
 import com.example.plannerREST.utils.JwtUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -17,6 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class JwtRestController {
+
+    private Logger logger = LoggerFactory.getLogger(JwtRestController.class);
 
     @Autowired
     private JwtUtil jwtUtil;
