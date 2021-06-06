@@ -41,8 +41,9 @@ public class CompanyServiceImpl implements CompanyService {
         return companies.stream().map(this::convertToDTO).collect(Collectors.toList());
     }
 
-    @Transactional
+
     @Override
+    @Transactional
     public Company saveCompany(CompanyDTO companyDTO) {
 
         Company company = setDefaultFieldsValues(companyDTO);
@@ -66,8 +67,9 @@ public class CompanyServiceImpl implements CompanyService {
         return company;
     }
 
-    @Transactional
+
     @Override
+    @Transactional
     public CompanyDTO editCompany(int companyId) {
 
         Company company = companyRepository.findById(companyId).get();
@@ -75,8 +77,8 @@ public class CompanyServiceImpl implements CompanyService {
         return convertToDTO(company);
     }
 
-    @Transactional
     @Override
+    @Transactional
     public Company updateCompany(CompanyDTO companyDTO) {
 
         Company company = setDefaultFieldsValues(companyDTO);
@@ -97,8 +99,9 @@ public class CompanyServiceImpl implements CompanyService {
         return company;
     }
 
-    @Transactional
+
     @Override
+    @Transactional
     public void removeCompany(int companyId) {
         companyRepository.deleteById(companyId);
     }

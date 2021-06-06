@@ -63,8 +63,9 @@ public class UserServiceImpl implements UserService {
         return usersDTO;
     }
 
-    @Transactional
+
     @Override
+    @Transactional
     public Users saveUser(UsersDTO usersDTO) throws Exception {
 
         Users foundUser = userRepository.findByUserName(usersDTO.getUserName());
@@ -97,8 +98,9 @@ public class UserServiceImpl implements UserService {
         }
     }
 
-    @Transactional
+
     @Override
+    @Transactional
     public Users updateUser(UsersDTO usersDTO) {
 
         List<Permission>  permissions = new ArrayList<>();
@@ -124,8 +126,8 @@ public class UserServiceImpl implements UserService {
         return user;
     }
 
-    @Transactional
     @Override
+    @Transactional
     public void removeUser(int id) {
         userRepository.deleteById(id);
     }

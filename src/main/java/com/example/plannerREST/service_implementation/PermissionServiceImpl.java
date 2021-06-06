@@ -22,8 +22,9 @@ public class PermissionServiceImpl implements PermissionService {
         return permissionRepository.findAll().stream().map(this::convertToDTO).collect(Collectors.toList());
     }
 
-    @Transactional
+
     @Override
+    @Transactional
     public Permission savePermission(PermissionDTO permissionDTO) {
 
         Permission permission = new Permission();
@@ -41,8 +42,9 @@ public class PermissionServiceImpl implements PermissionService {
         return convertToDTO(permission);
     }
 
-    @Transactional
+
     @Override
+    @Transactional
     public Permission updatePermission(PermissionDTO permissionDTO) {
 
         Permission permission = new Permission();
@@ -54,8 +56,9 @@ public class PermissionServiceImpl implements PermissionService {
         return permission;
     }
 
-    @Transactional
+
     @Override
+    @Transactional
     public void removePermission(int id) {
         permissionRepository.deleteById(id);
     }

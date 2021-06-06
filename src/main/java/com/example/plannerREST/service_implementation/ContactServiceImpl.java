@@ -47,8 +47,9 @@ public class ContactServiceImpl implements ContactService {
         return convertContactDTO(contact);
     }
 
-    @Transactional
+
     @Override
+    @Transactional
     public Contact saveContact(ContactDTO contactDTO) {
 
         List<Company> companies = new ArrayList<>();
@@ -77,8 +78,9 @@ public class ContactServiceImpl implements ContactService {
         return contact;
     }
 
-    @Transactional
+
     @Override
+    @Transactional
     public void updateContact(ContactDTO contactDTO) {
         saveContact(contactDTO);
     }
