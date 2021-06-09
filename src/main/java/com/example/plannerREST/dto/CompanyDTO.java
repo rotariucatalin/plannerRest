@@ -1,10 +1,13 @@
 package com.example.plannerREST.dto;
 
 import com.example.plannerREST.enums.CompanyType;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import io.swagger.annotations.ApiModel;
 
 import java.io.Serializable;
 import java.util.List;
 
+@ApiModel(description = "Details for companyDTO")
 public class CompanyDTO implements Serializable {
 
     private static final long serialVersionUID = 9178661439383356177L;
@@ -19,25 +22,10 @@ public class CompanyDTO implements Serializable {
     private String website;
     private String description;
     private CompanyDTO salesCompany;
-    private ContactDTO salesContact;
-    private List<ContactDTO> contacts;
+    private ContactDTO salesContactDTO;
+    private List<ContactDTO> contactDTOList;
 
     public CompanyDTO() {
-    }
-
-    public CompanyDTO(int id, String name, CompanyType type, String email, String phone, String postAddress, String city, String website, String description, CompanyDTO salesCompany, ContactDTO salesContact, List<ContactDTO> contacts) {
-        this.id = id;
-        this.name = name;
-        this.type = type;
-        this.email = email;
-        this.phone = phone;
-        this.postAddress = postAddress;
-        this.city = city;
-        this.website = website;
-        this.description = description;
-        this.salesCompany = salesCompany;
-        this.salesContact = salesContact;
-        this.contacts = contacts;
     }
 
     public static long getSerialVersionUID() {
@@ -124,20 +112,20 @@ public class CompanyDTO implements Serializable {
         this.salesCompany = salesCompany;
     }
 
-    public ContactDTO getSalesContact() {
-        return salesContact;
+    public ContactDTO getSalesContactDTO() {
+        return salesContactDTO;
     }
 
-    public void setSalesContact(ContactDTO salesContact) {
-        this.salesContact = salesContact;
+    public void setSalesContactDTO(ContactDTO salesContactDTO) {
+        this.salesContactDTO = salesContactDTO;
     }
 
-    public List<ContactDTO> getContacts() {
-        return contacts;
+    public List<ContactDTO> getContactDTOList() {
+        return contactDTOList;
     }
 
-    public void setContacts(List<ContactDTO> contacts) {
-        this.contacts = contacts;
+    public void setContactDTOList(List<ContactDTO> contactDTOList) {
+        this.contactDTOList = contactDTOList;
     }
 
     @Override
@@ -153,8 +141,8 @@ public class CompanyDTO implements Serializable {
                 ", website='" + website + '\'' +
                 ", description='" + description + '\'' +
                 ", salesCompany=" + salesCompany +
-                ", salesContact=" + salesContact +
-                ", contacts=" + contacts +
+                ", salesContact=" + salesContactDTO +
+                ", contacts=" + contactDTOList +
                 '}';
     }
 }

@@ -1,7 +1,10 @@
 package com.example.plannerREST.dto;
 
+import io.swagger.annotations.ApiModel;
+
 import java.io.Serializable;
 
+@ApiModel(description = "Details for permissions")
 public class PermissionDTO implements Serializable {
 
     private static final long serialVersionUID =9178661439383356177L;

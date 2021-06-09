@@ -2,13 +2,17 @@ package com.example.plannerREST.dto;
 
 import com.example.plannerREST.enums.ActivityStatus;
 import com.example.plannerREST.enums.ActivityType;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 
 import java.io.Serializable;
 
+@ApiModel(description = "Details for activityDTO")
 public class ActivityDTO implements Serializable {
 
     private static final long serialVersionUID = 9178661439383356177L;
 
+    @ApiModelProperty(notes = "Unique id for activityDTO")
     private int id;
     private String subject;
     private String reference;

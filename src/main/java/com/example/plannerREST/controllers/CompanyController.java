@@ -4,6 +4,8 @@ import com.example.plannerREST.dto.CompanyDTO;
 import com.example.plannerREST.entities.CustomResponse;
 import com.example.plannerREST.exception.ApiRequestException;
 import com.example.plannerREST.services.CompanyService;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +28,9 @@ public class CompanyController {
 
     @PreAuthorize("hasAuthority('View_Company')")
     @GetMapping(value = "/", produces = APPLICATION_JSON_VALUE)
+    @ApiOperation(  value = "Get all companies",
+                    notes = "Get all companies. You can filter/change the number of companies that are returned",
+                    response = CompanyDTO.class)
     public List<CompanyDTO> getAllCompanies(@RequestParam(defaultValue = "0") int page,
                                             @RequestParam(defaultValue = "5") int size,
                                             @RequestParam(defaultValue = "") String filter) throws ApiRequestException {
@@ -39,6 +44,7 @@ public class CompanyController {
 
     @PreAuthorize("hasAuthority('Add_Company')")
     @PostMapping(value = "/addCompany", produces = APPLICATION_JSON_VALUE, consumes = APPLICATION_JSON_VALUE)
+    @ApiOperation(value = "Adding new company", notes = "Adding new company")
     public CustomResponse addCompany(@RequestBody CompanyDTO companyDTO) throws ApiRequestException {
 
         try {

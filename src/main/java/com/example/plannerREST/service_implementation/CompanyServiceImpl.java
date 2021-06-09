@@ -48,10 +48,10 @@ public class CompanyServiceImpl implements CompanyService {
 
         Company company = setDefaultFieldsValues(companyDTO);
 
-        if(companyDTO.getSalesContact() != null) {
+        if(companyDTO.getSalesContactDTO() != null) {
 
             Contact salesContact = new Contact();
-            salesContact.setId(companyDTO.getSalesContact().getId());
+            salesContact.setId(companyDTO.getSalesContactDTO().getId());
             company.setSalesContact(salesContact);
         }
 
@@ -83,9 +83,9 @@ public class CompanyServiceImpl implements CompanyService {
 
         Company company = setDefaultFieldsValues(companyDTO);
 
-        if(companyDTO.getSalesContact() != null) {
+        if(companyDTO.getSalesContactDTO() != null) {
 
-            Contact salesContact = contactRepository.findById(companyDTO.getSalesContact().getId()).get();
+            Contact salesContact = contactRepository.findById(companyDTO.getSalesContactDTO().getId()).get();
             company.setSalesContact(salesContact);
         }
 
@@ -144,7 +144,7 @@ public class CompanyServiceImpl implements CompanyService {
         if(company.getSalesContact() != null) {
             ContactDTO salesContactDTO = new ContactDTO();
             salesContactDTO.setId(company.getSalesContact().getId());
-            companyDTO.setSalesContact(salesContactDTO);
+            companyDTO.setSalesContactDTO(salesContactDTO);
         }
 
         if(company.getSalesCompany() != null) {

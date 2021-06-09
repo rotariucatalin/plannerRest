@@ -1,8 +1,11 @@
 package com.example.plannerREST.dto;
 
+import io.swagger.annotations.ApiModel;
+
 import java.io.Serializable;
 import java.util.List;
 
+@ApiModel(description = "Details for usersDTO")
 public class UsersDTO implements Serializable {
 
     private static final long serialVersionUID = 9178661439383356177L;
