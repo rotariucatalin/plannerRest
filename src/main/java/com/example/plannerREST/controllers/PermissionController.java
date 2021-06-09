@@ -4,6 +4,7 @@ import com.example.plannerREST.dto.PermissionDTO;
 import com.example.plannerREST.entities.CustomResponse;
 import com.example.plannerREST.exception.ApiRequestException;
 import com.example.plannerREST.services.PermissionService;
+import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +27,11 @@ public class PermissionController {
 
     @PreAuthorize("hasAuthority('View_Permission')")
     @GetMapping(value = "/", produces = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Getting all permissions",
+            notes = "Get all permissions. You can filter/change the number of companies that are returned",
+            response = PermissionDTO.class
+    )
     public List<PermissionDTO> getAllPermissions() throws ApiRequestException {
 
         try {
@@ -37,6 +43,11 @@ public class PermissionController {
 
     @PreAuthorize("hasAuthority('Add_Permission')")
     @PostMapping(value = "/addPermission", produces = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Add new permission",
+            notes = "Add new permission",
+            response = CustomResponse.class
+    )
     public CustomResponse addPermission(@RequestBody PermissionDTO permissionDTO) throws ApiRequestException {
 
         try {
@@ -49,6 +60,11 @@ public class PermissionController {
 
     @PreAuthorize("hasAuthority('Edit_Permission')")
     @GetMapping(value = "/editPermission/{id}", produces = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Edit specific permission",
+            notes = "Edit specific permission based on specific id",
+            response = PermissionDTO.class
+    )
     public PermissionDTO editPermission(@PathVariable("id") int id) throws ApiRequestException {
 
         try {
@@ -60,6 +76,11 @@ public class PermissionController {
 
     @PreAuthorize("hasAuthority('Edit_Permission')")
     @PutMapping(value = "/updatePermission", produces = APPLICATION_JSON_VALUE, consumes = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Update specific permission",
+            notes = "Update specific permission based on specific id",
+            response = CustomResponse.class
+    )
     public CustomResponse updatePermission(@RequestBody PermissionDTO permissionDTO) throws ApiRequestException {
 
         try {
@@ -72,6 +93,11 @@ public class PermissionController {
 
     @PreAuthorize("hasAuthority('Delete_Permission')")
     @DeleteMapping(value = "/deletePermission/{id}", produces = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Delete specific permission",
+            notes = "Delete specific permission based on specific id",
+            response = CustomResponse.class
+    )
     public CustomResponse removePermission(@PathVariable("id") int id) throws ApiRequestException {
 
         try {

@@ -6,6 +6,7 @@ import com.example.plannerREST.entities.CustomResponse;
 import com.example.plannerREST.exception.ApiRequestException;
 import com.example.plannerREST.services.ActivityService;
 import com.example.plannerREST.services.CompanyService;
+import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +32,11 @@ public class ActivityController {
 
     @PreAuthorize("hasAuthority('View_Activity')")
     @GetMapping(value = "/", produces = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Get all activities",
+            notes = "Get all activities. You can filter/change the number of companies that are returned",
+            response = ActivityDTO.class
+    )
     public List<ActivityDTO> getAllActivities(@RequestParam(defaultValue = "0") int page,
                                               @RequestParam(defaultValue = "5") int size,
                                               @RequestParam(defaultValue = "") String filter) {
@@ -39,6 +45,11 @@ public class ActivityController {
 
     @PreAuthorize("hasAuthority('Add_Activity')")
     @GetMapping(value = "/getAllCompanies", produces = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Getting all companies",
+            notes = "Getting all companies",
+            response = CompanyDTO.class
+    )
     public List<CompanyDTO> getAllCompanies() throws ApiRequestException {
 
         try {
@@ -51,6 +62,11 @@ public class ActivityController {
 
     @PreAuthorize("hasAuthority('Add_Activity')")
     @PostMapping(value = "/addActivity", produces = APPLICATION_JSON_VALUE, consumes = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Add new activity",
+            notes = "Add new activity",
+            response = CustomResponse.class
+    )
     public CustomResponse saveActivity(@RequestBody ActivityDTO activityDTO) throws ApiRequestException {
 
         try {
@@ -65,6 +81,11 @@ public class ActivityController {
 
     @PreAuthorize("hasAuthority('Edit_Activity')")
     @GetMapping(value = "/editActivity/{id}", produces = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Edit specific activity",
+            notes = "Edit specific activity based on specific id",
+            response = ActivityDTO.class
+    )
     public ActivityDTO editActivity(@PathVariable(value = "id") int id) throws ApiRequestException {
 
         try {
@@ -76,6 +97,11 @@ public class ActivityController {
 
     @PreAuthorize("hasAuthority('Edit_Activity')")
     @PutMapping(value = "/updateActivity", produces = APPLICATION_JSON_VALUE, consumes = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Update activity",
+            notes = "Update activity based on specif id",
+            response = CustomResponse.class
+    )
     public CustomResponse updateActivity(@RequestBody ActivityDTO activityDTO) throws ApiRequestException {
 
         try {
@@ -89,6 +115,11 @@ public class ActivityController {
 
     @PreAuthorize("hasAuthority('Delete_Activity')")
     @DeleteMapping(value = "/removeActivity/{id}", produces = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Delete activity",
+            notes = "Delete activity based on specific id",
+            response = ActivityDTO.class
+    )
     public CustomResponse removeActivity(@PathVariable(value = "id") int id) throws ApiRequestException {
 
         try {

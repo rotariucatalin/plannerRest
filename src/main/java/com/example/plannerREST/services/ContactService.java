@@ -11,5 +11,5 @@ public interface ContactService {
     ContactDTO getContact(int contactId);
     Contact saveContact(ContactDTO contactDTO);
     void updateContact(ContactDTO contactDTO);
-
+    void removeContact(int contactId);
 }

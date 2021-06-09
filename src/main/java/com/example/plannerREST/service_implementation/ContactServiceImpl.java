@@ -85,6 +85,11 @@ public class ContactServiceImpl implements ContactService {
         saveContact(contactDTO);
     }
 
+    @Override
+    public void removeContact(int contactId) {
+        contactRepository.deleteById(contactId);
+    }
+
     private ContactDTO convertContactDTO(Contact contact) {
 
         List<ActivityDTO> activityDTOList = new ArrayList<>();

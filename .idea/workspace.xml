@@ -2,54 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a923c055-dbfd-43a0-90d2-f8c7f7007502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plannerREST.iml" beforeDir="false" afterPath="$PROJECT_DIR$/plannerREST.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/PlannerRestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/PlannerRestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/ActivityController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/ContactController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/JwtRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/JwtRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/dto/ActivityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/dto/ActivityDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/dto/CompanyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/dto/CompanyDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/dto/ContactDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/dto/ContactDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/dto/PermissionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/dto/PermissionDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/dto/UsersDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/dto/UsersDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/service_implementation/CompanyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/service_implementation/CompanyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/plannerREST.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/PlannerRestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/PlannerRestApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/controllers/ActivityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/controllers/ActivityController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/controllers/CompanyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/controllers/CompanyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/controllers/ContactController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/controllers/ContactController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/controllers/JwtRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/controllers/JwtRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/controllers/PermissionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/controllers/PermissionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/dto/ActivityDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/dto/ActivityDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/dto/CompanyDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/dto/CompanyDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/dto/ContactDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/dto/ContactDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/dto/PermissionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/dto/PermissionDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/dto/UsersDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/dto/UsersDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/security/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/service_implementation/ActivityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/service_implementation/ActivityServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/service_implementation/CompanyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/service_implementation/CompanyServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/service_implementation/ContactServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/service_implementation/ContactServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/service_implementation/PermissionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/service_implementation/PermissionServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/service_implementation/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/service_implementation/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/PermissionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/service_implementation/ContactServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/service_implementation/ContactServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/services/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/services/ContactService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +110,7 @@
       <workItem from="1622888958317" duration="658000" />
       <workItem from="1622970501292" duration="1462000" />
       <workItem from="1623136291927" duration="8086000" />
-      <workItem from="1623218128637" duration="9864000" />
+      <workItem from="1623218128637" duration="11916000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1622802993200</created>
@@ -186,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622970775818</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding Swagger for API Documentation">
+      <created>1623233559387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623233559387</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +180,9 @@
     <MESSAGE value="First coomit" />
     <MESSAGE value="First commit" />
     <MESSAGE value="Adding @Transactional for non read operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding @Transactional for non read operations" />
+    <MESSAGE value="Adding Swagger for API Documentataion" />
+    <MESSAGE value="Adding Swagger for API Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Swagger for API Documentation" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

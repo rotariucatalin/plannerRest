@@ -4,6 +4,7 @@ import com.example.plannerREST.dto.UsersDTO;
 import com.example.plannerREST.entities.CustomResponse;
 import com.example.plannerREST.exception.ApiRequestException;
 import com.example.plannerREST.services.UserService;
+import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +27,11 @@ public class UserController {
 
     @PreAuthorize("hasAuthority('View_User')")
     @GetMapping(value = "/", produces = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Getting all users",
+            notes = "Get all users. You can filter/change the number of companies that are returned",
+            response = UsersDTO.class
+    )
     public List<UsersDTO> getAllUsers(@RequestParam(defaultValue = "0") int page,
                                       @RequestParam(defaultValue = "5") int size,
                                       @RequestParam(defaultValue = "") String filter) throws ApiRequestException {
@@ -39,6 +45,11 @@ public class UserController {
 
     @PreAuthorize("hasAuthority('Add_User')")
     @PostMapping(value = "/addUser", produces = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Adding new user",
+            notes = "Adding new user",
+            response = CustomResponse.class
+    )
     public CustomResponse addUser(@RequestBody UsersDTO usersDTO) throws ApiRequestException{
 
         try {
@@ -51,6 +62,11 @@ public class UserController {
 
     @PreAuthorize("hasAuthority('Edit_User')")
     @GetMapping(value = "/editUser/{id}", produces = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Edit specific user",
+            notes = "Edit specific user based on specific id",
+            response = UsersDTO.class
+    )
     public UsersDTO editUser(@PathVariable("id") int id) throws ApiRequestException {
 
         try {
@@ -62,6 +78,11 @@ public class UserController {
 
     @PreAuthorize("hasAuthority('Edit_User')")
     @PutMapping(value = "/updateUser", produces = APPLICATION_JSON_VALUE, consumes = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Update specific user",
+            notes = "Update specific user based on specific id",
+            response = UsersDTO.class
+    )
     public CustomResponse updateUser(@RequestBody UsersDTO usersDTO) throws ApiRequestException{
 
         try {
@@ -74,6 +95,11 @@ public class UserController {
 
     @PreAuthorize("hasAuthority('Delete_User')")
     @DeleteMapping(value = "/deleteUser/{id}", produces = APPLICATION_JSON_VALUE)
+    @ApiOperation(
+            value = "Delete specific user",
+            notes = "Delete specific user based on specific id",
+            response = UsersDTO.class
+    )
     public CustomResponse removeUser(@PathVariable("id") int id) throws ApiRequestException {
 
         try {
