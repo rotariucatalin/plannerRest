@@ -2,14 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a923c055-dbfd-43a0-90d2-f8c7f7007502" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_63_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_63_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_63_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_63_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_63_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_63_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_3_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plannerREST.iml" beforeDir="false" afterPath="$PROJECT_DIR$/plannerREST.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/PlannerRestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/PlannerRestApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/ActivityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/CompanyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/ContactController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/JwtRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/JwtRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/PermissionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/service_implementation/ContactServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/service_implementation/ContactServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/service_implementation/ActivityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/service_implementation/ActivityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/services/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/services/ActivityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/services/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/services/CompanyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/services/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/services/ContactService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,7 +127,8 @@
       <workItem from="1622888958317" duration="658000" />
       <workItem from="1622970501292" duration="1462000" />
       <workItem from="1623136291927" duration="8086000" />
-      <workItem from="1623218128637" duration="11916000" />
+      <workItem from="1623218128637" duration="15309000" />
+      <workItem from="1623586108489" duration="5757000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1622802993200</created>
@@ -154,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623233559387</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding Swagger ( all rest controllers ) for API Documentation">
+      <created>1623235586646</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623235586646</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +207,8 @@
     <MESSAGE value="Adding @Transactional for non read operations" />
     <MESSAGE value="Adding Swagger for API Documentataion" />
     <MESSAGE value="Adding Swagger for API Documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Swagger for API Documentation" />
+    <MESSAGE value="Adding Swagger ( all rest controllers ) for API Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Swagger ( all rest controllers ) for API Documentation" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
