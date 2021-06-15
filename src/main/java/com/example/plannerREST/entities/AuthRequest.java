@@ -1,6 +1,8 @@
 package com.example.plannerREST.entities;
 
-public class AuthRequest {
+import java.io.Serializable;
+
+public class AuthRequest implements Serializable {
 
     private String username;
     private String password;

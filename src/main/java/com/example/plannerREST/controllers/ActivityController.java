@@ -2,8 +2,11 @@ package com.example.plannerREST.controllers;
 
 import com.example.plannerREST.dto.ActivityDTO;
 import com.example.plannerREST.dto.CompanyDTO;
+import com.example.plannerREST.entities.AuthRequest;
 import com.example.plannerREST.entities.CustomResponse;
+import com.example.plannerREST.entities.Permission;
 import com.example.plannerREST.exception.ApiRequestException;
+import com.example.plannerREST.kafka.Producer;
 import com.example.plannerREST.services.ActivityService;
 import com.example.plannerREST.services.CompanyService;
 import io.swagger.annotations.ApiOperation;
@@ -28,7 +31,24 @@ public class ActivityController {
     private ActivityService activityService;
 
     @Autowired
+    private Producer producer;
+
+    @Autowired
     private CompanyService companyService;
+
+    /*
+
+    Example of using kafka
+
+    @GetMapping("/testKafka/{message}")
+    public String testKafka(@PathVariable("message") String message) {
+        Permission permission = new Permission();
+        permission.setName("test123");
+        producer.publishMessage(permission);
+        return "Message is " + message;
+    }
+
+     */
 
     @PreAuthorize("hasAuthority('View_Activity')")
     @GetMapping(value = "/", produces = APPLICATION_JSON_VALUE)
