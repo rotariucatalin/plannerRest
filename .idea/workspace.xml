@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a923c055-dbfd-43a0-90d2-f8c7f7007502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_63_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_63_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_63_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_63_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_63_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_63_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_3_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plannerREST.iml" beforeDir="false" afterPath="$PROJECT_DIR$/plannerREST.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/PlannerRestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/PlannerRestApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/ActivityController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/JwtRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/JwtRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/service_implementation/ActivityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/service_implementation/ActivityServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/services/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/services/ActivityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/services/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/services/CompanyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/services/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/services/ContactService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/plannerREST/PlannerRestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/plannerREST/PlannerRestApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +25,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -67,11 +46,21 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.plannerREST.controllers" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,7 +74,87 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ContactControllerTest.getAllContacts">
+    <configuration name="ActivityControllerTest.getALlActivities" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plannerREST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.plannerREST.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.plannerREST.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.plannerREST.controllers.ActivityControllerTest" />
+      <option name="METHOD_NAME" value="getALlActivities" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivityControllerTest.getOneActivity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plannerREST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.plannerREST.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.plannerREST.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.plannerREST.controllers.ActivityControllerTest" />
+      <option name="METHOD_NAME" value="getOneActivity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompanyControllerTest.getAllCompanies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plannerREST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.plannerREST.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.plannerREST.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.plannerREST.controllers.CompanyControllerTest" />
+      <option name="METHOD_NAME" value="getAllCompanies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompanyControllerTest.getOneCompany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plannerREST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.plannerREST.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.plannerREST.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.plannerREST.controllers.CompanyControllerTest" />
+      <option name="METHOD_NAME" value="getOneCompany" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactControllerTest.getAllContacts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plannerREST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.plannerREST.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.plannerREST.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.plannerREST.controllers.ContactControllerTest" />
+      <option name="METHOD_NAME" value="getAllContacts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlannerRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="plannerREST" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.plannerREST.PlannerRestApplication" />
@@ -93,6 +162,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ContactControllerTest.getAllContacts" />
+        <item itemvalue="JUnit.ActivityControllerTest.getOneActivity" />
+        <item itemvalue="JUnit.CompanyControllerTest.getOneCompany" />
+        <item itemvalue="JUnit.CompanyControllerTest.getAllCompanies" />
+        <item itemvalue="JUnit.ActivityControllerTest.getALlActivities" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -128,7 +206,10 @@
       <workItem from="1622970501292" duration="1462000" />
       <workItem from="1623136291927" duration="8086000" />
       <workItem from="1623218128637" duration="15309000" />
-      <workItem from="1623586108489" duration="5757000" />
+      <workItem from="1623586108489" duration="6840000" />
+      <workItem from="1623668150940" duration="9971000" />
+      <workItem from="1623692610463" duration="6384000" />
+      <workItem from="1623737099930" duration="1664000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1622802993200</created>
@@ -179,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623235586646</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding Redis implementation/Spring Cache">
+      <created>1623601504078</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623601504078</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +296,8 @@
     <MESSAGE value="Adding Swagger for API Documentataion" />
     <MESSAGE value="Adding Swagger for API Documentation" />
     <MESSAGE value="Adding Swagger ( all rest controllers ) for API Documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Swagger ( all rest controllers ) for API Documentation" />
+    <MESSAGE value="Adding Redis implementation/Spring Cache" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Redis implementation/Spring Cache" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

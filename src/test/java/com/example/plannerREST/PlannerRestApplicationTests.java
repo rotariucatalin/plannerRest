@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class PlannerRestApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void generateToken() {
+
 	}
 
 }

@@ -73,7 +73,7 @@ public class JwtRestController {
 
         } catch (Exception e) {
 
-            throw new ApiRequestException("Username of password incorrect!");
+            throw new ApiRequestException("Username or password incorrect!");
         }
     }
 }
