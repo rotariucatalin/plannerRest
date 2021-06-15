@@ -22,7 +22,6 @@ public class Consumer {
         permissionDTO.setName(permission.getName());
         //permissionService.savePermission(permissionDTO);
 
-        //System.out.println("Permission name is "+ permission.getName());
     }
 
 }
