@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a923c055-dbfd-43a0-90d2-f8c7f7007502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plannerREST.iml" beforeDir="false" afterPath="$PROJECT_DIR$/plannerREST.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/controllers/ActivityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/entities/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/entities/AuthRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/kafka/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/plannerREST/kafka/Consumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/controllers/ActivityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/controllers/ActivityController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/entities/AuthRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/entities/AuthRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/plannerREST.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/plannerREST/PlannerRestApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/plannerREST/PlannerRestApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/plannerREST/kafka/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/plannerREST/kafka/Consumer.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +211,16 @@
       <workItem from="1623586108489" duration="6840000" />
       <workItem from="1623668150940" duration="9971000" />
       <workItem from="1623692610463" duration="6384000" />
-      <workItem from="1623737099930" duration="15294000" />
+      <workItem from="1623737099930" duration="15705000" />
+      <workItem from="1624012441087" duration="1239000" />
+      <workItem from="1624340408633" duration="49000" />
+      <workItem from="1624360275806" duration="1896000" />
+      <workItem from="1624432010997" duration="6800000" />
+      <workItem from="1624521457471" duration="1283000" />
+      <workItem from="1624603982765" duration="621000" />
+      <workItem from="1624902420461" duration="2319000" />
+      <workItem from="1624906490163" duration="973000" />
+      <workItem from="1626689980464" duration="1060000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1622802993200</created>
@@ -289,7 +285,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623739211543</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding support for Apache Kafka">
+      <created>1623765252975</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623765252975</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adding support for Apache Kafka">
+      <created>1623765271485</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1623765271485</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adding support for Apache Kafka">
+      <created>1623765296481</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623765296481</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +337,8 @@
     <MESSAGE value="Adding Swagger ( all rest controllers ) for API Documentation" />
     <MESSAGE value="Adding Redis implementation/Spring Cache" />
     <MESSAGE value="Adding tests for controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding tests for controllers" />
+    <MESSAGE value="Adding support for Apache Kafka" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding support for Apache Kafka" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

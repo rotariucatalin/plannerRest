@@ -1,7 +1,6 @@
 package com.example.plannerREST.kafka;
 
 import com.example.plannerREST.dto.PermissionDTO;
-import com.example.plannerREST.entities.AuthRequest;
 import com.example.plannerREST.entities.Permission;
 import com.example.plannerREST.services.PermissionService;
 import org.springframework.beans.factory.annotation.Autowired;
